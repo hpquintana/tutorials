@@ -1,0 +1,17 @@
+{
+  "name": "node_cli",
+  "version": "1.0.0",
+  "description": "A node.js command line application!",
+  "main": "index.js",
+  "repository": "https://github.com/hpquintana/node-cli.git",
+  "author": "Hector Quintana <hector.quintana.dev@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "preferGlobal": true,
+  "bin": "./contact.js",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0",
+    "mongoose": "^5.2.14"
+  }
+}
